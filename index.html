@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Practice Exercise </title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <p> This is a Practice Exercise </p>
+        <script>
+           if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js')
+    .then(registration => {
+      console.log('Service Worker is registered', registration);
+    })
+    .catch(err => {
+      console.error('Registration failed:', err);
+    });
+  }); 
+}
+
+        </script>
+    </body>
+</html>

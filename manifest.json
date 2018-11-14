@@ -1,0 +1,19 @@
+{
+    "name": "practice",
+   "short_name": "practice",
+   "start_url": "/index.html?hs=true",
+   "scope": "/",
+   "icons": [{
+     "src": "/images/crown.png",
+     "sizes": "128x128",
+     "type": "image/png"
+   },{
+       "src": "/images/crown.png",
+       "sizes": "144x144",
+       "type": "image/png"
+     }],
+   "display": "standalone",
+   "background_color" :"yellow",
+   "theme_color": "blue",
+   "orientation": "portrait"
+ } 
